@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Bilel BEN CHEIKH</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">À propos de moi</a></li>
+          <li><a href="#competance">Compétances</a></li>
+          <!-- <li><a href="#experience">Expériences</a></li> -->
+          
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Bilel BEN CHEIKH</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">À propos de moi</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Expériences</a></li> -->
+          <li><a href="#competance" onclick="toggleMenu()">Compétences</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Photo Profil Bilel.png" alt="Bilel BEN CHEIKH profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Bilel BEN CHEIKH</h1>
+        <p class="section__text__p2">Data Analyst & Consultant en Business Intelligence</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/bilelbencheikh'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+
+
+        </div>
+      </div>
+    </section>
+
+</section>
+<section id="about">
+  <p class="section__text__p1">En savoir plus</p>
+  <h1 class="title">À propos de moi</h1>
+  <!-- <div class="section-container">
+    <div class="section__pic-container">
+      <img
+        src="./assets/About Me.png"
+        alt="Profile picture"
+        class="about-pic"
+      />
+    </div>
+   -->
+      <div class="text-container">
+        <p><br> Passionné par la découverte de la valeur cachée dans les données, je suis Data Analyst et Consultant en Business Intelligence avec plus de 6 ans d'expérience dans l'analyse de données et l'implémentation de solutions BI. Mon expertise couvre la modélisation des données, la création de tableaux de bord interactifs, et la gestion de projets BI pour optimiser les processus décisionnels et améliorer la performance des entreprises.<br/>
+            <br>J'ai eu l'opportunité de collaborer avec des organisations de différents secteurs, notamment la finance, l'e-commerce, et les services bancaires, où j'ai conçu et déployé des solutions de reporting et d'analyse permettant de prendre des décisions éclairées et d'optimiser les processus métiers. Mon approche combine une compréhension stratégique des besoins métiers et une maîtrise des outils techniques tels que Power BI, Tableau, SQL, et Python pour fournir des analyses et des solutions à haute valeur ajoutée.<br/>
+            <br>Mes réalisations incluent l'optimisation des processus de reporting financier, la mise en place de pipelines de données automatisés et la création de modèles prédictifs pour anticiper les tendances du marché et améliorer les performances des entreprises. J'accompagne également mes clients dans la gestion du changement et l'adoption des solutions BI, assurant ainsi un impact durable et mesurable.<br/>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-details-container">
+
+    <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Diplome & Formation</h3>
+            <br /> Licence appliquée en Informatique « Maintenance des systèmes informatiques ».
+            <br /> Certificat d’achèvement : Formation M20767 Mettre en œuvre un data Warehouse avec Microsoft SQL Server 2016.
+            <br /> Certificat d’achèvement : Formation M20483 Programmation C#..
+            <br /> Certificat d’achèvement : Formation M22461 Ecrire des requêtes Microsoft SQL server 2012.
+            <br /> Certificat d’achèvement : Formation Qlikview Designer,Développer & system administrator.
+            <br /> Certificat d’achèvement : Formation AMDEC Processus et plan de surveillance.
+            <!-- <p>2+ years <br />Frontend Development</p> -->
+          </div>
+    
+        </div> 
+  <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+
+    </section>
+    <section id="competance">
+      <p class="section__text__p1">En savoir plus</p>
+      <h1 class="title">Compétances</h1>
+      <!-- <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/About Me.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+       -->
+          <div class="text-container">
+            <p><br> <h3>✔ Maîtrise des outils BI:</h3> Connaissance approfondie des outils de BI comme Power BI, Tableau, QlikView, et des plateformes ETL (Extraction, Transformation, Chargement) telles que Talend, Informatica, ou SSIS.<br/>
+                <br><h3>✔ Base de données et SQL:</h3> Expertise dans la gestion des bases de données relationnelles (SQL Server, Oracle, MySQL) et la capacité à écrire des requêtes SQL complexes.<br/>
+                <br><h3>✔ Modélisation des données :</h3> Compétences en modélisation de données pour créer des schémas de base de données et des cubes OLAP afin de structurer et d'analyser efficacement les données.<br/>
+                <br><h3>✔ Analyse des besoins :</h3> Capacité à comprendre les besoins métiers et à les traduire en solutions techniques.<br/>
+                <br><h3>✔ Coordination des équipes :</h3> Savoir travailler avec des équipes techniques et fonctionnelles pour assurer une bonne communication entre les différents services.<br/>
+                <br><h3>✔ Planification et gestion du changement :</h3>Gérer le déploiement des projets BI et accompagner les utilisateurs dans l'adoption des nouvelles solutions.<br/>
+                <br><h3>✔ Méthodologies agiles :</h3> Utilisation des méthodologies Agile ou Scrum pour livrer des projets de BI de manière itérative et rapide.<br/>
+                <br><h3>✔ Compréhension des processus métiers :</h3> Connaissance des processus opérationnels de l'entreprise pour identifier où les solutions BI peuvent ajouter de la valeur.<br/>
+                <br><h3>✔ Capacité à résoudre des problèmes complexes :</h3> Compétence en analyse des problèmes pour proposer des solutions BI qui optimisent les processus métiers.<br/>
+                <br><h3>✔ Approche stratégique :</h3> Apporter une vision stratégique sur l'utilisation des données pour anticiper les tendances et optimiser les performances.<br/>
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#experience'"
+          />
+
+            </section>
+            <section id="skills">
+              <p class="section__text__p1">En savoir plus</p>
+              <h1 class="title">Skills</h1>
+              <div class="experience-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <!-- <h2 class="experience-sub-title">Outils Business Intelligence</h2> -->
+                    <div class="article-container">
+                      <article>
+                        <img
+                          src="./assets/Qlikview.png"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>Qlikview</p>
+                          <!-- <p>Experienced</p> -->
+                        </div>
+                      </article>
+                      <article>
+                        <img
+                          src="./assets/SEnse.jpg"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>QlikSense</p>
+                          <!-- <p>Experienced</p> -->
+                        </div>
+                      </article>
+                      <article>
+                        <img
+                          src="./assets/Power-BI.png"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>Power BI</p>
+                          <!-- <p>Intermediate</p> -->
+                        </div>
+                      </article>
+                      <article>
+                        <img
+                          src="./assets/SSAS.png"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>SSAS</p>
+                          <!-- <p>Basic</p> -->
+                        </div>
+                      </article>
+                      <article>
+                        <img
+                          src="./assets/ssis.png"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>>SSIS</p>
+                          <!-- <p>Basic</p> -->
+                        </div>
+                      </article>
+                      <article>
+                        <img
+                          src="./assets/SSRS.jpg"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>SSRS</p>
+                          <!-- <p>Intermediate</p> -->
+                        </div>
+                      </article>
+
+                      <article>
+                        <img
+                          src="./assets/Talend.jpg"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>Talend</p>
+                          <!-- <p>Intermediate</p> -->
+                        </div>
+                      </article>
+
+                      <article>
+                        <img
+                          src="./assets/Mysql.jpg"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>MySQL</p>
+                          <!-- <p>Intermediate</p> -->
+                        </div>
+                      </article>
+
+                      <article>
+                        <img
+                          src="./assets/Oracle.jpg"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>Oracle</p>
+                          <!-- <p>Intermediate</p> -->
+                        </div>
+                      </article>
+
+
+                      <article>
+                        <img
+                          src="./assets/Postgres.jpg"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>Postgres SQL</p>
+                          <!-- <p>Intermediate</p> -->
+                        </div>
+                      </article>
+
+                      <article>
+                        <img
+                          src="./assets/SQLServer.png"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                            <p>SQL Server</p>
+                          <!-- <p>Intermediate</p> -->
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- </section>
+<section id="experience">
+<p class="section__text__p1">En savoir plus</p>
+<h1 class="title">Expériences</h1>
+
+<div class="text-container">
+  <p><h3>Consultant Business Intelligence: </h3>
+  </p><h3></h3>VENTURIS - Crédit management et recouvrement </h3>
+    <p>Sept. 2023 – Actuel </h3>
+        
+
+
+    <br /> ✔ Participer / animer les ateliers de cadrage et d’expression de besoin avec les métiers.
+    <br /> ✔ Analyser les besoins, les traduire en spécifications techniques et élaborer le cahier des charges.
+    <br /> ✔ Préparer les scripts d’intégration et assurer la qualité des données (vérification, formatage, nettoyage).
+    <br /> ✔ Concevoir des modèles de données efficaces en utilisant des techniques de modélisation avancées.
+    <br /> ✔ Concevoir et développer des solutions de Business Intelligence avec Qlik Sense pour répondre aux besoins métier des utilisateurs.
+    <br /> ✔ Construire et générer des rapports Excel, Power Paint, HTML, pixel perfect à l’aide NPrinting.
+    <br /> ✔ Assurer la maintenance continue des applications Business Intelligence, résoudre les problèmes techniques et fournir un support aux utilisateurs finaux.
+    <br /> ✔ Administrer au quotidien les plateformes décisionnelles Qliksense /NPrinting (mise en production, gestion des licences…).
+
+
+    
+  </p>
+</div>
+
+  <p><h3>Team lead- Analyst BI expert</h3>
+  </p><h3></h3>UPERGY - Fabrication et distribution de produits dans le domaine de l’énergie autonome</h3>
+    <p>Sept. 2022 – Aout.2023</h3>
+    
+        <br /> ✔ Analyser l’environnement Qlik existant et cartographier le système d’information décisionnel.
+        <br /> ✔ Proposer des recommandations pour une optimisation du temps de réponse et des performances hardware.
+        <br /> ✔ Collaborer avec les équipes métier pour identifier les besoins BI. 
+        <br /> ✔ Analyser les besoins, les traduire en spécifications techniques et élaborer le cahier des charges.
+        <br /> ✔ Développer de requêtes SQL complexes pour extraire, transformer et charger les données à partir de différentes sources de données via l’ETL ODI (Oracle Data Integrator).
+        <br /> ✔ Concevoir développer et déployer des solutions BI/Qlik innovantes répondant aux besoins métiers spécifiques et assurer leur alignement avec la stratégie globale de l'entreprise.
+        <br /> ✔ Proposer des solutions de visualisation de données adaptées pour améliorer la prise de décision.
+        <br /> ✔ Maintenance, refonte et optimisation des applications BI (Script, Modèle de données, Dashboard, Intégration de données). 
+        <br /> ✔ Migration de rapports et dashboards BI du la plateforme SAP Business Object vers Qlik. 
+        <br /> ✔ Préparer, organiser et animer les réunions d’équipe afin d’échanger sur les travaux en cours et assurer le transfert des compétences.
+        <br /> ✔ Préparer les reportings d’activité auprès du responsable, point sur le travail effectué, signaler les problèmes techniques rencontrés et les solutions apportées.
+        <br /> ✔ Administrer les plateformes décisionnelles Qliksense /NPrinting /Oracle Data Integrator (mise en production, gestion des licences, gestion des droits utilisateurs, planification des travaux…).
+    
+  </p>
+</div>
+
+<p><h3>Développeur Business Intelligence</h3>
+</p><h3></h3>TISCIRCUITS - Industrialisation et fabrication de cartes et produits électroniques.</h3>
+  <p>Oct. 2018 – Mars.2022</h3>
+
+    <br /> ✔ Recueillir les besoins métiers dans le cadre des ateliers.
+    <br /> ✔ Echanger avec les différentes parties prenantes pour comprendre et définir les besoins métiers.
+    <br /> ✔ Restituer les données (SQL, Excel, Fichier Plat, etc.)
+    <br /> ✔ Assurer le flux d’alimentation de multiples bases de données : BD SAP, BD Prod, données utilisateurs, …
+    <br /> ✔ Concevoir et développer des solutions de Business Intelligence avec Qlikview/Qlik Sense pour répondre aux besoins métier des utilisateurs.
+    <br /> ✔ Maintenance, refonte et optimisation des applications BI (Script, Modèle de données, Dashboard, Intégration de données). 
+    <br /> ✔ Analyser et interpréter les données pour résoudre les anomalies les problèmes techniques.
+    <br /> ✔ Créer des rapports avec Qlik Nprinting
+    <br /> ✔ Fournir un support technique et fonctionnel aux utilisateurs finaux.
+    <br /> ✔ Migrer des applications Qlikview vers QlikSense.
+    <br /> ✔ Rédiger des documents techniques et fonctionnels et élaborer les cahiers de charge.
+    <br /> ✔ Administrer et gérer la configuration, la maintenance et l'optimisation des environnements Qlik (mise en production, gestion des licences, gestion des droits utilisateurs, planification des travaux, ressources serveur...)
+
+</p>
+</div>
+
+
+<p><h3>Coordinateur système d’information</h3>
+</p><h3></h3>TISCIRCUITS - Industrialisation et fabrication de cartes et produits électroniques.</h3>
+  <p>Mai. 2012 – Oct.2018</h3>
+
+    <br /> ✔ Piloter, planifier les projets informatiques en lien avec la DSI. 
+    <br /> ✔ Recueillir, analyser, formaliser les besoins fonctionnels des utilisateurs et des clients.
+    <br /> ✔ Assurer la coordination entre l’équipe de développement et les métiers.
+    <br /> ✔ Travailler en collaboration avec les développeurs pour résoudre les problèmes identifiés et améliorer la qualité globale des applications.
+    <br /> ✔ Exécuter les cas de test pour vérifier le bon fonctionnement des solutions avant la mise en Production.
+    <br /> ✔ Analyser les risques et proposer des plans d'actions.
+    <br /> ✔ Identifier, documenter et signaler les anomalies et les défauts.
+    <br /> ✔ Valider, installer, configurer et déployer les applications et les équipements informatiques.
+    <br /> ✔ Assurer la bonne Gestion de parc informatique.
+    <br /> ✔ Piloter les actions de maintenance corrective, évolutive et/ou préventive des solutions informatiques.
+    <br /> ✔ Former les utilisateurs.
+
+
+   
+</p>
+</div>
+
+
+</section>
+<section id="competance">
+<p class="section__text__p1">En savoir plus</p>
+<h1 class="title">Compétances</h1>
+
+<div class="text-container">
+  <p>✔ Maîtrise des outils BI</h3>: Connaissance approfondie des outils de BI comme Power BI, Tableau, QlikView, et des plateformes ETL (Extraction, Transformation, Chargement) telles que Talend, Informatica, ou SSIS.
+    <br /> ✔ Base de données et SQL : Expertise dans la gestion des bases de données relationnelles (SQL Server, Oracle, MySQL) et la capacité à écrire des requêtes SQL complexes.
+    <br />✔ Modélisation des données :</h3>  Compétences en modélisation de données pour créer des schémas de base de données et des cubes OLAP afin de structurer et d'analyser efficacement les données.
+    <br />✔ Analyse des besoins : </h3> Capacité à comprendre les besoins métiers et à les traduire en solutions techniques.
+    <br />✔ KPI et reporting :</h3> Définir des indicateurs clés de performance (KPI) et créer des tableaux de bord pertinents pour la prise de décision.
+    <br />✔ Coordination des équipes :</h3> Savoir travailler avec des équipes techniques et fonctionnelles pour assurer une bonne communication entre les différents services.
+    <br />✔ Planification et gestion du changement :</h3>Gérer le déploiement des projets BI et accompagner les utilisateurs dans l'adoption des nouvelles solutions.
+    <br />✔ Méthodologies agiles :</h3> Utilisation des méthodologies Agile ou Scrum pour livrer des projets de BI de manière itérative et rapide.
+    <br />✔ Compréhension des processus métiers :</h3> Connaissance des processus opérationnels de l'entreprise pour identifier où les solutions BI peuvent ajouter de la valeur.
+    <br />✔ Capacité à résoudre des problèmes complexes :</h3> Compétence en analyse des problèmes pour proposer des solutions BI qui optimisent les processus métiers.
+    <br />✔ Approche stratégique : </h3>Apporter une vision stratégique sur l'utilisation des données pour anticiper les tendances et optimiser les performances.
+    
+  </p>
+</div>
+
+
+
+
+
+<div class="about-details-container">
+
+    <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Diplome & Formation</h3>
+            <br /> Licence appliquée en Informatique « Maintenance des systèmes informatiques ».
+            <br /> Certificat d’achèvement : Formation M20767 Mettre en œuvre un data Warehouse avec Microsoft SQL Server 2016.
+            <br /> Certificat d’achèvement : Formation M20483 Programmation C#..
+            <br /> Certificat d’achèvement : Formation M22461 Ecrire des requêtes Microsoft SQL server 2012.
+            <br /> Certificat d’achèvement : Formation Qlikview Designer,Développer & system administrator.
+            <br /> Certificat d’achèvement : Formation AMDEC Processus et plan de surveillance.
+             <p>2+ years <br />Frontend Development</p> -->
+          </div>
+    
+        </div> 
+
+
+      <!-- <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div> -->
+        <!-- <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+         </div> 
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div>
+        </div>
+      </div> 
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      /> -->
+ 
+        <!-- </article> -->
+              
+              
+              
+              
+              
+              <!-- <article>
+
+
+
+
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      /> --> 
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+
+      <!-- <div class="article-container">
+        <article>
+          <img
+            src="./assets/Recouvrement.PNG"
+            alt="Project 1"
+            class="project-img"
+          />
+        </article> -->
+
+
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+                <p class="section__text__p1">Dashboard recouvrement</p>
+              <img
+                src="./assets/Recouvrement.PNG"
+                alt="Project 1"
+                class="project-img"
+
+              />
+            </div>        
+        
+        
+              <div class="experience-details-container">
+                <div class="about-containers">
+                  <div class="details-container color-container">
+                    <div class="article-container">
+                        <p class="section__text__p1">Call center agent performance dashboard</p>
+                      <img
+                        src="./assets/Dashboard qualité Call center.png"
+                        alt="Project 1"
+                        class="project-img"
+        
+                      />
+                    </div>
+
+                
+                
+                
+                      <div class="experience-details-container">
+                        <div class="about-containers">
+                          <div class="details-container color-container">
+                            <div class="article-container">
+                                <p class="section__text__p1">Call center agent performance dashboard</p>
+                              <img
+                                src="./assets/Dashboard qualité Call center.png"
+                                alt="Project 1"
+                                class="project-img"
+                
+                              />
+                            </div>
+
+            
+
+             
+          <!-- <p class="section__text__p1">Dashboard recouvrement</p>
+            <div class="btn-container">
+             <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div> 
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              /> 
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">bilel.bencheikh@hotmail.fr</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/bilelbencheikh">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">À propos de moi</a></li>
+            <!-- <li><a href="#experience">Experience</a></li> -->
+            <li><a href="#competance">Compétences</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Bilel BEN CHEIKH. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
